@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 150px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+
+menu{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+menu img{
+    width: 100px;
+}
+
+menu ul{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 25px;
+
+}
+
+li{
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: rgb(109, 221, 216);
+}
+
+.login{
+    
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign{
+    border: none;
+    background: none;
+    outline: none;
+}
+
+menu button{
+    font-size: 25px;
+
+}
+
+.log{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
